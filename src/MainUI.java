@@ -381,8 +381,8 @@ public class MainUI {
 				//TODO: Add Sys User
 				//delimit txtSysUser
 				//add users to a list in UI for record
-				btnAdd.setEnabled(false);
-				btnRemove.setEnabled(true);
+//				btnAdd.setEnabled(false);
+//				btnRemove.setEnabled(true);
 				String user = txtSysUser.getText();
 				try {
 					Runtime rt = Runtime.getRuntime();
@@ -402,8 +402,8 @@ public class MainUI {
 		btnRemove.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				//TODO: Remove Sys User
-				btnAdd.setEnabled(true);
-				btnRemove.setEnabled(false);
+//				btnAdd.setEnabled(true);
+//				btnRemove.setEnabled(false);
 				String user = txtSysUser.getText();
 				try {
 					Runtime rt = Runtime.getRuntime();
